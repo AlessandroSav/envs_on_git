@@ -1,0 +1,42 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/acmsavazzi/opt/anaconda3/pkgs/ripgrep-12.1.1-0",
+  "features": "",
+  "files": [
+    "bin/rg"
+  ],
+  "fn": "ripgrep-12.1.1-0.conda",
+  "legacy_bz2_md5": "6c585762ddfc142a43036036ed79c80b",
+  "legacy_bz2_size": 1449442,
+  "link": {
+    "source": "/Users/acmsavazzi/opt/anaconda3/pkgs/ripgrep-12.1.1-0",
+    "type": 1
+  },
+  "md5": "d0588ea1a0d971658228eca4674f4736",
+  "name": "ripgrep",
+  "package_tarball_full_path": "/Users/acmsavazzi/opt/anaconda3/pkgs/ripgrep-12.1.1-0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/rg",
+        "path_type": "hardlink",
+        "sha256": "9ee0670ab222dfd3788b206eacb2b549a330df9b1602a42509328ea9749bf436",
+        "sha256_in_prefix": "9ee0670ab222dfd3788b206eacb2b549a330df9b1602a42509328ea9749bf436",
+        "size_in_bytes": 3173272
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/osx-64::ripgrep==12.1.1=0",
+  "sha256": "608ae552a324bd5ff22d390d97dfcf4f57578065417f74f10c6eef8d0d162892",
+  "size": 1323761,
+  "subdir": "osx-64",
+  "timestamp": 1601296330198,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ripgrep-12.1.1-0.conda",
+  "version": "12.1.1"
+}

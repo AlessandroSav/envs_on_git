@@ -1,0 +1,72 @@
+{
+  "build": "py38hddc9c9b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcurl >=7.71.1,<8.0a0",
+    "openssl >=1.1.1h,<1.1.2a",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/acmsavazzi/opt/anaconda3/pkgs/pycurl-7.43.0.6-py38hddc9c9b_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/curl/__init__.py",
+    "lib/python3.8/site-packages/curl/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pycurl-7.43.0.6-py3.8.egg-info",
+    "lib/python3.8/site-packages/pycurl.cpython-38-darwin.so"
+  ],
+  "fn": "pycurl-7.43.0.6-py38hddc9c9b_0.conda",
+  "legacy_bz2_md5": "53b1e1d0915f515dd0d4603868c62078",
+  "legacy_bz2_size": 74001,
+  "license": "LGPL, MIT",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Users/acmsavazzi/opt/anaconda3/pkgs/pycurl-7.43.0.6-py38hddc9c9b_0",
+    "type": 1
+  },
+  "md5": "27af0f8fe8dcfe99f244bcac6f096f85",
+  "name": "pycurl",
+  "package_tarball_full_path": "/Users/acmsavazzi/opt/anaconda3/pkgs/pycurl-7.43.0.6-py38hddc9c9b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/curl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9766d278e7e71b16dc14dce242adf864a8f501aae03cbe0b89a3c8cd9ae9d260",
+        "sha256_in_prefix": "9766d278e7e71b16dc14dce242adf864a8f501aae03cbe0b89a3c8cd9ae9d260",
+        "size_in_bytes": 7203
+      },
+      {
+        "_path": "lib/python3.8/site-packages/curl/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e6b2bfc5b98796a4a43958f0dab5df742f3cdcb172777dc9afb7201509f4515",
+        "sha256_in_prefix": "2e6b2bfc5b98796a4a43958f0dab5df742f3cdcb172777dc9afb7201509f4515",
+        "size_in_bytes": 6462
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycurl-7.43.0.6-py3.8.egg-info",
+        "path_type": "hardlink",
+        "sha256": "71726992414efc647e3163c1665336bc8e8deca2e626a8cd984081f893ba39b6",
+        "sha256_in_prefix": "71726992414efc647e3163c1665336bc8e8deca2e626a8cd984081f893ba39b6",
+        "size_in_bytes": 4675
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pycurl.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "3b18e44a428d4c0e5ff0ac26a2c41d870de883a98a2d9ac6b3e993ec7fceb2a8",
+        "sha256_in_prefix": "3b18e44a428d4c0e5ff0ac26a2c41d870de883a98a2d9ac6b3e993ec7fceb2a8",
+        "size_in_bytes": 155212
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/osx-64::pycurl==7.43.0.6=py38hddc9c9b_0",
+  "sha256": "5dd35c20991829f0dc9ef3f081647283bc6ca92993d2cf785433455f878131ab",
+  "size": 67453,
+  "subdir": "osx-64",
+  "timestamp": 1602278866582,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pycurl-7.43.0.6-py38hddc9c9b_0.conda",
+  "version": "7.43.0.6"
+}

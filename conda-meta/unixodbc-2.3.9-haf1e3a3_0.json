@@ -1,0 +1,334 @@
+{
+  "build": "haf1e3a3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libedit >=3.1.20191231,<3.2.0a0",
+    "libiconv >=1.16,<2.0a0"
+  ],
+  "extracted_package_dir": "/Users/acmsavazzi/opt/anaconda3/pkgs/unixodbc-2.3.9-haf1e3a3_0",
+  "features": "",
+  "files": [
+    "bin/dltest",
+    "bin/isql",
+    "bin/iusql",
+    "bin/odbc_config",
+    "bin/odbcinst",
+    "bin/slencheck",
+    "include/autotest.h",
+    "include/odbcinst.h",
+    "include/odbcinstext.h",
+    "include/sql.h",
+    "include/sqlext.h",
+    "include/sqlspi.h",
+    "include/sqltypes.h",
+    "include/sqlucode.h",
+    "include/unixodbc_conf.h",
+    "include/uodbc_extras.h",
+    "include/uodbc_stats.h",
+    "lib/libodbc.2.dylib",
+    "lib/libodbc.dylib",
+    "lib/libodbccr.2.dylib",
+    "lib/libodbccr.dylib",
+    "lib/libodbcinst.2.dylib",
+    "lib/libodbcinst.dylib",
+    "lib/pkgconfig/odbc.pc",
+    "lib/pkgconfig/odbccr.pc",
+    "lib/pkgconfig/odbcinst.pc",
+    "share/man/man1/dltest.1",
+    "share/man/man1/isql.1",
+    "share/man/man1/iusql.1",
+    "share/man/man1/odbc_config.1",
+    "share/man/man1/odbcinst.1",
+    "share/man/man5/odbc.ini.5",
+    "share/man/man5/odbcinst.ini.5",
+    "share/man/man7/unixODBC.7"
+  ],
+  "fn": "unixodbc-2.3.9-haf1e3a3_0.conda",
+  "legacy_bz2_md5": "31865f38ac866b48125ec7e07d583222",
+  "legacy_bz2_size": 283890,
+  "license": "LGPL-2.1",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Users/acmsavazzi/opt/anaconda3/pkgs/unixodbc-2.3.9-haf1e3a3_0",
+    "type": 1
+  },
+  "md5": "bb61886c5e8d5efdfd7d54b648ce18f4",
+  "name": "unixodbc",
+  "package_tarball_full_path": "/Users/acmsavazzi/opt/anaconda3/pkgs/unixodbc-2.3.9-haf1e3a3_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/dltest",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "0029ec35bdfb839ebe23e736f75eefe6a76f0cea948667e33adf3b5593f1f4e5",
+        "sha256_in_prefix": "36417b6eeb6ff704626c9eb279bed7016ec184934a8cc6b018df7af7a00d68d1",
+        "size_in_bytes": 39988
+      },
+      {
+        "_path": "bin/isql",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5a2116c69b31d6b9ab69880a1094a11c8c6a8d15c96abc1e06d14217045b0613",
+        "sha256_in_prefix": "00366be50d3cbe350f78f1c9f9b61698230981b0abe7530c3b87904d7f6c421c",
+        "size_in_bytes": 33600
+      },
+      {
+        "_path": "bin/iusql",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9a490f16805632b52be3d1e5f8d256e9134179a4044609650404c927a1c34592",
+        "sha256_in_prefix": "54fe03d3685e66ad68a155a3cf6c59304b255656f7aa6704644b91af21617c22",
+        "size_in_bytes": 28264
+      },
+      {
+        "_path": "bin/odbc_config",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "2ab93aebc9462a41a6bf64e25faeb920a26da710ce49e2944aaabe11ec10b22f",
+        "sha256_in_prefix": "50b2c6689490152f0357889e7cb404d3403005120676b9b1c0f87c9c91319b6b",
+        "size_in_bytes": 12836
+      },
+      {
+        "_path": "bin/odbcinst",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9f80e411a61696f2db5ae83d5332acbb9317d2553d2af03cdfeef0ff48f370b3",
+        "sha256_in_prefix": "58cf5a3c0b3865a19a5965692908eccac56570880b834c277c48627956265a69",
+        "size_in_bytes": 29004
+      },
+      {
+        "_path": "bin/slencheck",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "9971862fc613c41ed6f73b5e2a8e74bdc4616b0d3a45a481e3e4ef81b5fba713",
+        "sha256_in_prefix": "ca6da295a997af49d1a093079d2d4f752665b2019f9b6235a73208fb78f24cd1",
+        "size_in_bytes": 13448
+      },
+      {
+        "_path": "include/autotest.h",
+        "path_type": "hardlink",
+        "sha256": "37e1cf5aab9fba75d0b5eaffe01932f967edb5d1363c73cb8181332fb510160b",
+        "sha256_in_prefix": "37e1cf5aab9fba75d0b5eaffe01932f967edb5d1363c73cb8181332fb510160b",
+        "size_in_bytes": 6198
+      },
+      {
+        "_path": "include/odbcinst.h",
+        "path_type": "hardlink",
+        "sha256": "d6af44f979df33df54cb3003523d9a905e36c4fc71adfdc97a35b35b76c132e6",
+        "sha256_in_prefix": "d6af44f979df33df54cb3003523d9a905e36c4fc71adfdc97a35b35b76c132e6",
+        "size_in_bytes": 18278
+      },
+      {
+        "_path": "include/odbcinstext.h",
+        "path_type": "hardlink",
+        "sha256": "f440a919d7e74de848b5ecca990e86be8ad4e0a9d05d3aa4f101d6e41fdf51cf",
+        "sha256_in_prefix": "f440a919d7e74de848b5ecca990e86be8ad4e0a9d05d3aa4f101d6e41fdf51cf",
+        "size_in_bytes": 11142
+      },
+      {
+        "_path": "include/sql.h",
+        "path_type": "hardlink",
+        "sha256": "277553e376e776bce7b59f88db7384072f93828ee9233a8910c04cb47a026862",
+        "sha256_in_prefix": "277553e376e776bce7b59f88db7384072f93828ee9233a8910c04cb47a026862",
+        "size_in_bytes": 32379
+      },
+      {
+        "_path": "include/sqlext.h",
+        "path_type": "hardlink",
+        "sha256": "f178339a8b1cfc61ef0d4c9bf2e7db83d8d0bbe524b0b9fe4236614f09f63594",
+        "sha256_in_prefix": "f178339a8b1cfc61ef0d4c9bf2e7db83d8d0bbe524b0b9fe4236614f09f63594",
+        "size_in_bytes": 83254
+      },
+      {
+        "_path": "include/sqlspi.h",
+        "path_type": "hardlink",
+        "sha256": "8521cafbb6d613aa0ca3c3495bd879f74fd239f85cf705d1f91c82d2f34a8258",
+        "sha256_in_prefix": "8521cafbb6d613aa0ca3c3495bd879f74fd239f85cf705d1f91c82d2f34a8258",
+        "size_in_bytes": 6983
+      },
+      {
+        "_path": "include/sqltypes.h",
+        "path_type": "hardlink",
+        "sha256": "0564f73c9aaa2865ee78a12384849449b2bfa6d377270e3ea160d0f1af425f80",
+        "sha256_in_prefix": "0564f73c9aaa2865ee78a12384849449b2bfa6d377270e3ea160d0f1af425f80",
+        "size_in_bytes": 11325
+      },
+      {
+        "_path": "include/sqlucode.h",
+        "path_type": "hardlink",
+        "sha256": "ca0a55f11da964dce09e22e89e690fe0d89fe7dbe6739e6c2976eefce5efe128",
+        "sha256_in_prefix": "ca0a55f11da964dce09e22e89e690fe0d89fe7dbe6739e6c2976eefce5efe128",
+        "size_in_bytes": 21666
+      },
+      {
+        "_path": "include/unixodbc_conf.h",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "1c3d6af7eaf6082d47201e04b502b29272bd22658c38d3df4c47d257a15ef6b2",
+        "sha256_in_prefix": "e058d8a4765fe88c47b7cd60f1f7ff73ba25b387b79a75fdd926333a83120f1a",
+        "size_in_bytes": 15531
+      },
+      {
+        "_path": "include/uodbc_extras.h",
+        "path_type": "hardlink",
+        "sha256": "d1b37d939b179d5f08da3e5a240af59888c69b94c06e3c3ab5e3f613c916dd15",
+        "sha256_in_prefix": "d1b37d939b179d5f08da3e5a240af59888c69b94c06e3c3ab5e3f613c916dd15",
+        "size_in_bytes": 2301
+      },
+      {
+        "_path": "include/uodbc_stats.h",
+        "path_type": "hardlink",
+        "sha256": "ab806b01bf32556d218ac8b85e3dcea2ab3952f995dd325424b15c14d925b60e",
+        "sha256_in_prefix": "ab806b01bf32556d218ac8b85e3dcea2ab3952f995dd325424b15c14d925b60e",
+        "size_in_bytes": 2590
+      },
+      {
+        "_path": "lib/libodbc.2.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "25a6729ee810e1f4007e7058a779feb144faf23503bc3d6118bcd36a3989abe1",
+        "sha256_in_prefix": "017ba59ae0a6f358ebe6c2726ccdd56568e63aeb4c16deae7860ffbad1f1ef84",
+        "size_in_bytes": 427460
+      },
+      {
+        "_path": "lib/libodbc.dylib",
+        "path_type": "softlink",
+        "sha256": "25a6729ee810e1f4007e7058a779feb144faf23503bc3d6118bcd36a3989abe1",
+        "size_in_bytes": 427460
+      },
+      {
+        "_path": "lib/libodbccr.2.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e7d379fa41a5ecf81d96ebe68116021714b493150d1026d8fb764edafa9485b0",
+        "sha256_in_prefix": "7c5c89cc9e4de0c5e5564b74129fdf4b94f77b72405d5130e8cf510d33d1564b",
+        "size_in_bytes": 40668
+      },
+      {
+        "_path": "lib/libodbccr.dylib",
+        "path_type": "softlink",
+        "sha256": "e7d379fa41a5ecf81d96ebe68116021714b493150d1026d8fb764edafa9485b0",
+        "size_in_bytes": 40668
+      },
+      {
+        "_path": "lib/libodbcinst.2.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "507864761796bf5d53332915f9ec60e72cc98d56bdac145c5bb33a3d704dae35",
+        "sha256_in_prefix": "619d8da7464685121ccc312c7a5149db7963371696226db85ef7cb31d318f730",
+        "size_in_bytes": 92980
+      },
+      {
+        "_path": "lib/libodbcinst.dylib",
+        "path_type": "softlink",
+        "sha256": "507864761796bf5d53332915f9ec60e72cc98d56bdac145c5bb33a3d704dae35",
+        "size_in_bytes": 92980
+      },
+      {
+        "_path": "lib/pkgconfig/odbc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "802ea760caa03a5ca1fbc3a46c1b95a0cf3bfb17d005838d5be2e2d4988448ac",
+        "sha256_in_prefix": "5bc9186c8949dd6396fdac996669d8fd8c301601951993f3e7cff0fb13d8b5f3",
+        "size_in_bytes": 761
+      },
+      {
+        "_path": "lib/pkgconfig/odbccr.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ab5cd534b77a6ce8ba7cbafb8f32bef755d98ee83a0f9f9a30e09154f3e3b465",
+        "sha256_in_prefix": "f7a2ea5c1233f115459d32dc63487338a3f4fd4140493a2aac1ae2a08b44fbe8",
+        "size_in_bytes": 508
+      },
+      {
+        "_path": "lib/pkgconfig/odbcinst.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/d7046f6c-665f-4ea9-5948-92c6a42eba89/volume/unixodbc_1602700013701/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "7a287a6642ded1fab58c6a6d152061febb6d42e4043cf8539632fa596cc35595",
+        "sha256_in_prefix": "ceb5d601f38bf27d406c63146be2a08f9fbce47d3f834102d7124fc0cd0f0af1",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "share/man/man1/dltest.1",
+        "path_type": "hardlink",
+        "sha256": "eaf8d5e4a21594537a9d4ba3bc3c973923efd4f8f39e3dfa3de415a64dc05f06",
+        "sha256_in_prefix": "eaf8d5e4a21594537a9d4ba3bc3c973923efd4f8f39e3dfa3de415a64dc05f06",
+        "size_in_bytes": 912
+      },
+      {
+        "_path": "share/man/man1/isql.1",
+        "path_type": "hardlink",
+        "sha256": "cb7aa0cdb445795d7ded48f5a5b4c4dd14f68dc447889b9de4873df64e35304b",
+        "sha256_in_prefix": "cb7aa0cdb445795d7ded48f5a5b4c4dd14f68dc447889b9de4873df64e35304b",
+        "size_in_bytes": 5370
+      },
+      {
+        "_path": "share/man/man1/iusql.1",
+        "path_type": "hardlink",
+        "sha256": "23167b9c69d733cb925368ac3c436a5f731d01f5c7c46c6836f8d24684c4b620",
+        "sha256_in_prefix": "23167b9c69d733cb925368ac3c436a5f731d01f5c7c46c6836f8d24684c4b620",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "share/man/man1/odbc_config.1",
+        "path_type": "hardlink",
+        "sha256": "7329140952331a29535ee31a0d8e06221a97c66e26d5b367f31f208115ca37f0",
+        "sha256_in_prefix": "7329140952331a29535ee31a0d8e06221a97c66e26d5b367f31f208115ca37f0",
+        "size_in_bytes": 2243
+      },
+      {
+        "_path": "share/man/man1/odbcinst.1",
+        "path_type": "hardlink",
+        "sha256": "e1680829a710078c2a3b8f5e74d099fca8ac1e3dc10418bfac29225f31df1299",
+        "sha256_in_prefix": "e1680829a710078c2a3b8f5e74d099fca8ac1e3dc10418bfac29225f31df1299",
+        "size_in_bytes": 2690
+      },
+      {
+        "_path": "share/man/man5/odbc.ini.5",
+        "path_type": "hardlink",
+        "sha256": "5020e163be210e765da5d4d01726a5550638d2bb987fef446217e1b2fdf3de50",
+        "sha256_in_prefix": "5020e163be210e765da5d4d01726a5550638d2bb987fef446217e1b2fdf3de50",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "share/man/man5/odbcinst.ini.5",
+        "path_type": "hardlink",
+        "sha256": "c3d6f9df673c83f23325088ef32f67ae6f0d78225736fd076bfedaf55f68ddc6",
+        "sha256_in_prefix": "c3d6f9df673c83f23325088ef32f67ae6f0d78225736fd076bfedaf55f68ddc6",
+        "size_in_bytes": 3114
+      },
+      {
+        "_path": "share/man/man7/unixODBC.7",
+        "path_type": "hardlink",
+        "sha256": "2c55763ced6c30b3be7e375154ade8903626f8dc30e7a9eb10b9608906b5e9cf",
+        "sha256_in_prefix": "2c55763ced6c30b3be7e375154ade8903626f8dc30e7a9eb10b9608906b5e9cf",
+        "size_in_bytes": 1908
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/osx-64::unixodbc==2.3.9=haf1e3a3_0",
+  "sha256": "a41c192c2f972e8d60cc456ef1d5af59fd01e74c33ce91069496870d766cfbea",
+  "size": 256855,
+  "subdir": "osx-64",
+  "timestamp": 1602700186119,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/unixodbc-2.3.9-haf1e3a3_0.conda",
+  "version": "2.3.9"
+}

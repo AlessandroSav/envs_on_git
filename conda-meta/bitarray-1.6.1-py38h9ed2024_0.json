@@ -1,0 +1,177 @@
+{
+  "build": "py38h9ed2024_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/acmsavazzi/opt/anaconda3/pkgs/bitarray-1.6.1-py38h9ed2024_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/bitarray/__init__.py",
+    "lib/python3.8/site-packages/bitarray/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bitarray/__pycache__/test_bitarray.cpython-38.pyc",
+    "lib/python3.8/site-packages/bitarray/__pycache__/test_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/bitarray/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/bitarray/_bitarray.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/bitarray/_util.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/bitarray/test_bitarray.py",
+    "lib/python3.8/site-packages/bitarray/test_util.py",
+    "lib/python3.8/site-packages/bitarray/util.py"
+  ],
+  "fn": "bitarray-1.6.1-py38h9ed2024_0.conda",
+  "legacy_bz2_md5": "83c9c6914c1be86e3f9ee25f626d2808",
+  "legacy_bz2_size": 87767,
+  "license": "PSF",
+  "link": {
+    "source": "/Users/acmsavazzi/opt/anaconda3/pkgs/bitarray-1.6.1-py38h9ed2024_0",
+    "type": 1
+  },
+  "md5": "7d4526ffbe8971bd3fa3618c207e8353",
+  "name": "bitarray",
+  "package_tarball_full_path": "/Users/acmsavazzi/opt/anaconda3/pkgs/bitarray-1.6.1-py38h9ed2024_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "41d81e4cb3adad23adfe5f63abbaf01acfcd59f07bfe2aa316f636c2185cbc73",
+        "sha256_in_prefix": "41d81e4cb3adad23adfe5f63abbaf01acfcd59f07bfe2aa316f636c2185cbc73",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "26b05735cf585d308b4d246a0d31a8f01785b6c1b9633d90c4487a64aba7efcc",
+        "sha256_in_prefix": "26b05735cf585d308b4d246a0d31a8f01785b6c1b9633d90c4487a64aba7efcc",
+        "size_in_bytes": 1282
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7dfc8c721e26a6290d12042748ef4ab990f0a4351961846f113b032b742efbf0",
+        "sha256_in_prefix": "7dfc8c721e26a6290d12042748ef4ab990f0a4351961846f113b032b742efbf0",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ca7f97817f3893ad9d6a0d2bba801aa0fde7d7a81c2e73f582dbe326dd757088",
+        "sha256_in_prefix": "ca7f97817f3893ad9d6a0d2bba801aa0fde7d7a81c2e73f582dbe326dd757088",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray-1.6.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "70b7687881e8b53c21e1e1d27bcab2f2e985ef3cf2c5433dd08f3315bdbfc618",
+        "sha256_in_prefix": "70b7687881e8b53c21e1e1d27bcab2f2e985ef3cf2c5433dd08f3315bdbfc618",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "867f5d8e685490132d97fa12af1606ccb53337b06d89c65f44e838eb05871ae2",
+        "sha256_in_prefix": "867f5d8e685490132d97fa12af1606ccb53337b06d89c65f44e838eb05871ae2",
+        "size_in_bytes": 2213
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "416d88d7827ca35f11893ba1327a356ec7ff4e91d0ea30d316a2f323bda89469",
+        "sha256_in_prefix": "416d88d7827ca35f11893ba1327a356ec7ff4e91d0ea30d316a2f323bda89469",
+        "size_in_bytes": 2756
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/__pycache__/test_bitarray.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f7b10f440b009e3101d5750800b9273738723e07c906e4bdedc10ba7ed44a6c",
+        "sha256_in_prefix": "4f7b10f440b009e3101d5750800b9273738723e07c906e4bdedc10ba7ed44a6c",
+        "size_in_bytes": 85220
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/__pycache__/test_util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea763b6c3b3b2c4702ba61c63e9d2c7af00d391ca9ea34818b1352da0da97573",
+        "sha256_in_prefix": "ea763b6c3b3b2c4702ba61c63e9d2c7af00d391ca9ea34818b1352da0da97573",
+        "size_in_bytes": 26103
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5988ced44b2fb7826eb3bc38cdaf22d7133887755e48fab6d4d0bb4057186b07",
+        "sha256_in_prefix": "5988ced44b2fb7826eb3bc38cdaf22d7133887755e48fab6d4d0bb4057186b07",
+        "size_in_bytes": 7742
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/_bitarray.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/fdfca23e-4dd8-48f7-512d-c4f3db552eeb/volume/bitarray_1605065128338/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "dccfd0c192f85e7eb12711e39642b479d4ec36e5f825bff4b47d3faf21d9fdae",
+        "sha256_in_prefix": "349d940082f5db2f1a88c3935622e25991eb820a44a51bf9b236a05f7e2f185e",
+        "size_in_bytes": 59400
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/_util.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/fdfca23e-4dd8-48f7-512d-c4f3db552eeb/volume/bitarray_1605065128338/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "8ba402a1878fb165fb715ff7c6f78ba0d04aeab3fffd0cba81c0e53e4ff24113",
+        "sha256_in_prefix": "f6f0b6b14a0eb5d7c8ba88d9e3625bcd4c59cee806fef3a10d48b1ea14ecd0ed",
+        "size_in_bytes": 14096
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/test_bitarray.py",
+        "path_type": "hardlink",
+        "sha256": "08830be03084229d7f9a77ab177e394e60b54f3ec2330d9420ea2baccbd0a64c",
+        "sha256_in_prefix": "08830be03084229d7f9a77ab177e394e60b54f3ec2330d9420ea2baccbd0a64c",
+        "size_in_bytes": 91948
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "02d93efe174c340fd841dd6d57576829b2bfab6848c3fde908cf624150f9c084",
+        "sha256_in_prefix": "02d93efe174c340fd841dd6d57576829b2bfab6848c3fde908cf624150f9c084",
+        "size_in_bytes": 31303
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bitarray/util.py",
+        "path_type": "hardlink",
+        "sha256": "f0ce35e999da845c518373341e5efb650558dd92ec14e6d31bb9e8c6e7e199c8",
+        "sha256_in_prefix": "f0ce35e999da845c518373341e5efb650558dd92ec14e6d31bb9e8c6e7e199c8",
+        "size_in_bytes": 9448
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/osx-64::bitarray==1.6.1=py38h9ed2024_0",
+  "sha256": "48b29d13451320f8fd0078832063ad18b3da0eb8dc8d60278107333a1d9b5d5b",
+  "size": 90185,
+  "subdir": "osx-64",
+  "timestamp": 1605065190874,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/bitarray-1.6.1-py38h9ed2024_0.conda",
+  "version": "1.6.1"
+}

@@ -1,0 +1,112 @@
+{
+  "build": "py38hb1e8313_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=10.0.0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/Users/acmsavazzi/opt/anaconda3/pkgs/ujson-4.0.1-py38hb1e8313_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/ujson.cpython-38-darwin.so"
+  ],
+  "fn": "ujson-4.0.1-py38hb1e8313_0.conda",
+  "legacy_bz2_md5": "ca381ccff510ad3a9741941a3c3869e6",
+  "legacy_bz2_size": 50238,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/acmsavazzi/opt/anaconda3/pkgs/ujson-4.0.1-py38hb1e8313_0",
+    "type": 1
+  },
+  "md5": "d0be3bfafb9a15a78dcdc4597f604fac",
+  "name": "ujson",
+  "package_tarball_full_path": "/Users/acmsavazzi/opt/anaconda3/pkgs/ujson-4.0.1-py38hb1e8313_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "6a00a8f8b4050303368b694147bde1aed9c96bdff869c181dbbf3ccb784a1501",
+        "sha256_in_prefix": "6a00a8f8b4050303368b694147bde1aed9c96bdff869c181dbbf3ccb784a1501",
+        "size_in_bytes": 1959
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "12088e2b306889880749ba6de5760627d80d2e014ccf10e9a0d3b9c7801d9e0d",
+        "sha256_in_prefix": "12088e2b306889880749ba6de5760627d80d2e014ccf10e9a0d3b9c7801d9e0d",
+        "size_in_bytes": 12148
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "595b27e68fee9992285f9e5dd07c0eeadfa208ac6b896b9fb7ae4deaaf25f70b",
+        "sha256_in_prefix": "595b27e68fee9992285f9e5dd07c0eeadfa208ac6b896b9fb7ae4deaaf25f70b",
+        "size_in_bytes": 737
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7dfc8c721e26a6290d12042748ef4ab990f0a4351961846f113b032b742efbf0",
+        "sha256_in_prefix": "7dfc8c721e26a6290d12042748ef4ab990f0a4351961846f113b032b742efbf0",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "4efda3e61d10c8435fd144ed3cfda939b52d4e6e338a8132fe677b9822f094c1",
+        "sha256_in_prefix": "4efda3e61d10c8435fd144ed3cfda939b52d4e6e338a8132fe677b9822f094c1",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "201318b952021d68bdc6798c376d9434c10561fd784dc702ee8f6e60f872720d",
+        "sha256_in_prefix": "201318b952021d68bdc6798c376d9434c10561fd784dc702ee8f6e60f872720d",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson.cpython-38-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/concourse/worker/volumes/live/2fc9988c-ebca-4577-6c4b-7383ea76e8ee/volume/ujson_1602523306974/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "f642fe260e0e531f444a632cf546f43f52d26df0beeba5e0f7be554697252e76",
+        "sha256_in_prefix": "2202b471ce7ea56d62bb1ef2545b03d59748a6f04dedf589744d695ec30b11d4",
+        "size_in_bytes": 93712
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/osx-64::ujson==4.0.1=py38hb1e8313_0",
+  "sha256": "77a2ebb12f9e74d946e278e6aed7258a6bd0d9cd11f347c1e403dc230132d6f1",
+  "size": 47107,
+  "subdir": "osx-64",
+  "timestamp": 1602523345183,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/ujson-4.0.1-py38hb1e8313_0.conda",
+  "version": "4.0.1"
+}

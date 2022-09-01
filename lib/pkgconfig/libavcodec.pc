@@ -1,0 +1,14 @@
+prefix=/Users/acmsavazzi/opt/anaconda3/envs/myenv
+exec_prefix=${prefix}
+libdir=/Users/acmsavazzi/opt/anaconda3/envs/myenv/lib
+includedir=/Users/acmsavazzi/opt/anaconda3/envs/myenv/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 58.54.100
+Requires: 
+Requires.private: libswresample >= 3.5.100, libavutil >= 56.31.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -L/Users/acmsavazzi/opt/anaconda3/envs/myenv/lib -lvpx -lm -L/Users/acmsavazzi/opt/anaconda3/envs/myenv/lib -lvpx -lm -L/Users/acmsavazzi/opt/anaconda3/envs/myenv/lib -lvpx -lm -L/Users/acmsavazzi/opt/anaconda3/envs/myenv/lib -lvpx -lm -liconv -lm -L/Users/acmsavazzi/opt/anaconda3/envs/myenv/lib -lz -framework AudioToolbox -lmp3lame -lm -L/Users/acmsavazzi/opt/anaconda3/envs/myenv/lib -lopus -L/Users/acmsavazzi/opt/anaconda3/envs/myenv/lib -lx264 -L/Users/acmsavazzi/opt/anaconda3/envs/myenv/lib -lopenh264 -pthread -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Cflags: -I${includedir}

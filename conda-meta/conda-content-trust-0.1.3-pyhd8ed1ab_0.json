@@ -1,0 +1,234 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cryptography",
+    "python >=3.5",
+    "six"
+  ],
+  "extracted_package_dir": "/Users/acmsavazzi/opt/anaconda3/pkgs/conda-content-trust-0.1.3-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/conda_content_trust-0.1.3.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/conda_content_trust-0.1.3.dist-info/LICENSE",
+    "lib/python3.8/site-packages/conda_content_trust-0.1.3.dist-info/METADATA",
+    "lib/python3.8/site-packages/conda_content_trust-0.1.3.dist-info/RECORD",
+    "lib/python3.8/site-packages/conda_content_trust-0.1.3.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/conda_content_trust-0.1.3.dist-info/WHEEL",
+    "lib/python3.8/site-packages/conda_content_trust-0.1.3.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/conda_content_trust-0.1.3.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/conda_content_trust-0.1.3.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/conda_content_trust/__init__.py",
+    "lib/python3.8/site-packages/conda_content_trust/__main__.py",
+    "lib/python3.8/site-packages/conda_content_trust/authentication.py",
+    "lib/python3.8/site-packages/conda_content_trust/cli.py",
+    "lib/python3.8/site-packages/conda_content_trust/common.py",
+    "lib/python3.8/site-packages/conda_content_trust/encryption.py",
+    "lib/python3.8/site-packages/conda_content_trust/metadata_construction.py",
+    "lib/python3.8/site-packages/conda_content_trust/root_signing.py",
+    "lib/python3.8/site-packages/conda_content_trust/signing.py",
+    "lib/python3.8/site-packages/conda_content_trust/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/conda_content_trust/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/conda_content_trust/__pycache__/authentication.cpython-38.pyc",
+    "lib/python3.8/site-packages/conda_content_trust/__pycache__/cli.cpython-38.pyc",
+    "lib/python3.8/site-packages/conda_content_trust/__pycache__/common.cpython-38.pyc",
+    "lib/python3.8/site-packages/conda_content_trust/__pycache__/encryption.cpython-38.pyc",
+    "lib/python3.8/site-packages/conda_content_trust/__pycache__/metadata_construction.cpython-38.pyc",
+    "lib/python3.8/site-packages/conda_content_trust/__pycache__/root_signing.cpython-38.pyc",
+    "lib/python3.8/site-packages/conda_content_trust/__pycache__/signing.cpython-38.pyc",
+    "bin/conda-content-trust"
+  ],
+  "fn": "conda-content-trust-0.1.3-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/acmsavazzi/opt/anaconda3/pkgs/conda-content-trust-0.1.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "1572585dd7c44786c5028d4cbf30be5c",
+  "name": "conda-content-trust",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/acmsavazzi/opt/anaconda3/pkgs/conda-content-trust-0.1.3-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/conda_content_trust-0.1.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/conda_content_trust-0.1.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "81bf4fc23c68b1f33cb0dbbea0436bdb2d79c24f5101807a1ec8812504c21a4a",
+        "sha256_in_prefix": "81bf4fc23c68b1f33cb0dbbea0436bdb2d79c24f5101807a1ec8812504c21a4a",
+        "size_in_bytes": 1508
+      },
+      {
+        "_path": "site-packages/conda_content_trust-0.1.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "61660d6055c9cd057170f884f9ca0f8a91e89a5f746df3a50e3b4e39178a6649",
+        "sha256_in_prefix": "61660d6055c9cd057170f884f9ca0f8a91e89a5f746df3a50e3b4e39178a6649",
+        "size_in_bytes": 3275
+      },
+      {
+        "_path": "site-packages/conda_content_trust-0.1.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6804727705b4471c6b8ebb061d57ccc3fcd2acd643653066345f8dd486087d4c",
+        "sha256_in_prefix": "6804727705b4471c6b8ebb061d57ccc3fcd2acd643653066345f8dd486087d4c",
+        "size_in_bytes": 2324
+      },
+      {
+        "_path": "site-packages/conda_content_trust-0.1.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/conda_content_trust-0.1.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/conda_content_trust-0.1.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "4a60f8fa0309a89f9178976e187c72984b8c49f77c413b2dba13ef52d394ecc6",
+        "sha256_in_prefix": "4a60f8fa0309a89f9178976e187c72984b8c49f77c413b2dba13ef52d394ecc6",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/conda_content_trust-0.1.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "d8f28a42d3652f44d94825524ca20360a615bea347daed75f9eca1a4c76952ed",
+        "sha256_in_prefix": "d8f28a42d3652f44d94825524ca20360a615bea347daed75f9eca1a4c76952ed",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/conda_content_trust-0.1.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "706dcadad1965b1e173f7c388f993056602985695e9dbcfc2cbcad31873042b6",
+        "sha256_in_prefix": "706dcadad1965b1e173f7c388f993056602985695e9dbcfc2cbcad31873042b6",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "site-packages/conda_content_trust/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b99b3280c5cc291c3eeea856a230239e99bc1853d753ddb15ba5c0f0ee46c056",
+        "sha256_in_prefix": "b99b3280c5cc291c3eeea856a230239e99bc1853d753ddb15ba5c0f0ee46c056",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/conda_content_trust/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "b7b707d2912fae71b1a4f6de7fe7dae1b40cacad718610f7c4980f02e5aeff5a",
+        "sha256_in_prefix": "b7b707d2912fae71b1a4f6de7fe7dae1b40cacad718610f7c4980f02e5aeff5a",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "site-packages/conda_content_trust/authentication.py",
+        "path_type": "hardlink",
+        "sha256": "7df7044da69ba65e98ce03dfde75562bda18fe24fa2dbdd3a76f04a7b7d4b973",
+        "sha256_in_prefix": "7df7044da69ba65e98ce03dfde75562bda18fe24fa2dbdd3a76f04a7b7d4b973",
+        "size_in_bytes": 24081
+      },
+      {
+        "_path": "site-packages/conda_content_trust/cli.py",
+        "path_type": "hardlink",
+        "sha256": "f892fa5ff122927be8319eab66f01d6339ff73577e03f2d7a5cf4d07020081f2",
+        "sha256_in_prefix": "f892fa5ff122927be8319eab66f01d6339ff73577e03f2d7a5cf4d07020081f2",
+        "size_in_bytes": 17987
+      },
+      {
+        "_path": "site-packages/conda_content_trust/common.py",
+        "path_type": "hardlink",
+        "sha256": "ed5268af221e425817d1ebf9fbecee8aea44d8dfc806607d30130685abbda71e",
+        "sha256_in_prefix": "ed5268af221e425817d1ebf9fbecee8aea44d8dfc806607d30130685abbda71e",
+        "size_in_bytes": 46960
+      },
+      {
+        "_path": "site-packages/conda_content_trust/encryption.py",
+        "path_type": "hardlink",
+        "sha256": "2c0285e2f308ec66d5d97537e1c7e1cad05f4dddaa81b7cf409bc8b5ffe7c98d",
+        "sha256_in_prefix": "2c0285e2f308ec66d5d97537e1c7e1cad05f4dddaa81b7cf409bc8b5ffe7c98d",
+        "size_in_bytes": 3267
+      },
+      {
+        "_path": "site-packages/conda_content_trust/metadata_construction.py",
+        "path_type": "hardlink",
+        "sha256": "8acd7979f65d526b65bd8c5dce216b3d89c7c657fe1bca7b9fbffac45c1a1f58",
+        "sha256_in_prefix": "8acd7979f65d526b65bd8c5dce216b3d89c7c657fe1bca7b9fbffac45c1a1f58",
+        "size_in_bytes": 12634
+      },
+      {
+        "_path": "site-packages/conda_content_trust/root_signing.py",
+        "path_type": "hardlink",
+        "sha256": "f38f9bf235501e6bb25873946994f4b722a5bcaf92ec8c08f214b50b8c38f17d",
+        "sha256_in_prefix": "f38f9bf235501e6bb25873946994f4b722a5bcaf92ec8c08f214b50b8c38f17d",
+        "size_in_bytes": 19443
+      },
+      {
+        "_path": "site-packages/conda_content_trust/signing.py",
+        "path_type": "hardlink",
+        "sha256": "a33957e49137ac5ee3ed792396ec9ce2fafb15f73293d911e92fa2ed735513be",
+        "sha256_in_prefix": "a33957e49137ac5ee3ed792396ec9ce2fafb15f73293d911e92fa2ed735513be",
+        "size_in_bytes": 9415
+      },
+      {
+        "_path": "lib/python3.8/site-packages/conda_content_trust/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/conda_content_trust/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/conda_content_trust/__pycache__/authentication.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/conda_content_trust/__pycache__/cli.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/conda_content_trust/__pycache__/common.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/conda_content_trust/__pycache__/encryption.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/conda_content_trust/__pycache__/metadata_construction.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/conda_content_trust/__pycache__/root_signing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/conda_content_trust/__pycache__/signing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/conda-content-trust",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-forge/noarch::conda-content-trust==0.1.3=pyhd8ed1ab_0",
+  "sha256": "005defc2d9ac49a9927790b15d95c1450eb777e3ff30a8c3d17dea02d81e17b8",
+  "size": 55162,
+  "subdir": "noarch",
+  "timestamp": 1621370850257,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/conda-content-trust-0.1.3-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.1.3"
+}

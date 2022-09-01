@@ -1,0 +1,632 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "anaconda-client >=1.7.2",
+    "clyent >=1.2.0",
+    "nbformat >=4.4.0",
+    "python",
+    "python-dateutil >=2.6.1",
+    "pytz",
+    "pyyaml >=3.12",
+    "requests >=2.9.1",
+    "setuptools",
+    "six"
+  ],
+  "extracted_package_dir": "/Users/acmsavazzi/opt/anaconda3/pkgs/conda-repo-cli-1.0.4-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/conda_repo_cli-1.0.4.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/conda_repo_cli-1.0.4.dist-info/LICENSE.md",
+    "lib/python3.8/site-packages/conda_repo_cli-1.0.4.dist-info/METADATA",
+    "lib/python3.8/site-packages/conda_repo_cli-1.0.4.dist-info/RECORD",
+    "lib/python3.8/site-packages/conda_repo_cli-1.0.4.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/conda_repo_cli-1.0.4.dist-info/WHEEL",
+    "lib/python3.8/site-packages/conda_repo_cli-1.0.4.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/conda_repo_cli-1.0.4.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/conda_repo_cli-1.0.4.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/repo_cli/__init__.py",
+    "lib/python3.8/site-packages/repo_cli/_version.py",
+    "lib/python3.8/site-packages/repo_cli/commands/__init__.py",
+    "lib/python3.8/site-packages/repo_cli/commands/admin.py",
+    "lib/python3.8/site-packages/repo_cli/commands/auth.py",
+    "lib/python3.8/site-packages/repo_cli/commands/base.py",
+    "lib/python3.8/site-packages/repo_cli/commands/channel.py",
+    "lib/python3.8/site-packages/repo_cli/commands/config.py",
+    "lib/python3.8/site-packages/repo_cli/commands/copy.py",
+    "lib/python3.8/site-packages/repo_cli/commands/cves.py",
+    "lib/python3.8/site-packages/repo_cli/commands/login.py",
+    "lib/python3.8/site-packages/repo_cli/commands/logout.py",
+    "lib/python3.8/site-packages/repo_cli/commands/mirror.py",
+    "lib/python3.8/site-packages/repo_cli/commands/move.py",
+    "lib/python3.8/site-packages/repo_cli/commands/remove.py",
+    "lib/python3.8/site-packages/repo_cli/commands/search.py",
+    "lib/python3.8/site-packages/repo_cli/commands/upload.py",
+    "lib/python3.8/site-packages/repo_cli/commands/whoami.py",
+    "lib/python3.8/site-packages/repo_cli/errors.py",
+    "lib/python3.8/site-packages/repo_cli/main.py",
+    "lib/python3.8/site-packages/repo_cli/tests/__init__.py",
+    "lib/python3.8/site-packages/repo_cli/tests/conftest.py",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/__init__.py",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/test_auth.py",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/test_channels.py",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/test_packages.py",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/test_user_workflows.py",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/testcase.py",
+    "lib/python3.8/site-packages/repo_cli/utils/__init__.py",
+    "lib/python3.8/site-packages/repo_cli/utils/api.py",
+    "lib/python3.8/site-packages/repo_cli/utils/appdirs.py",
+    "lib/python3.8/site-packages/repo_cli/utils/artifacts.py",
+    "lib/python3.8/site-packages/repo_cli/utils/conda.py",
+    "lib/python3.8/site-packages/repo_cli/utils/config.py",
+    "lib/python3.8/site-packages/repo_cli/utils/detect.py",
+    "lib/python3.8/site-packages/repo_cli/utils/format.py",
+    "lib/python3.8/site-packages/repo_cli/utils/local_auth_server.py",
+    "lib/python3.8/site-packages/repo_cli/utils/validators.py",
+    "lib/python3.8/site-packages/repo_cli/utils/yaml.py",
+    "lib/python3.8/site-packages/repo_cli/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/admin.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/auth.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/channel.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/copy.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/cves.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/login.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/logout.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/mirror.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/move.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/remove.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/search.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/upload.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/commands/__pycache__/whoami.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/tests/__pycache__/conftest.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/test_auth.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/test_channels.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/test_packages.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/test_user_workflows.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/testcase.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/api.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/appdirs.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/artifacts.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/conda.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/detect.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/format.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/local_auth_server.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/validators.cpython-38.pyc",
+    "lib/python3.8/site-packages/repo_cli/utils/__pycache__/yaml.cpython-38.pyc",
+    "bin/conda-repo"
+  ],
+  "fn": "conda-repo-cli-1.0.4-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "11c04f458d8ce7b3a5a99d142a08aeac",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/acmsavazzi/opt/anaconda3/pkgs/conda-repo-cli-1.0.4-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "9afdcd205e1e1d63efff21196929d1eb",
+  "name": "conda-repo-cli",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/acmsavazzi/opt/anaconda3/pkgs/conda-repo-cli-1.0.4-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/conda_repo_cli-1.0.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/conda_repo_cli-1.0.4.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "d0af00953ea051cc094de7dd0fa60f074c07d175a2e4686af7a5a2622434ac73",
+        "sha256_in_prefix": "d0af00953ea051cc094de7dd0fa60f074c07d175a2e4686af7a5a2622434ac73",
+        "size_in_bytes": 1494
+      },
+      {
+        "_path": "site-packages/conda_repo_cli-1.0.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e27b2526c19efdef1fc4fe62b3c765527425e55338b545abc178a48182a01415",
+        "sha256_in_prefix": "e27b2526c19efdef1fc4fe62b3c765527425e55338b545abc178a48182a01415",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "site-packages/conda_repo_cli-1.0.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d7272e7a5b16e7c2761fa1eb9cd419cb59d427b3eed325c7d618e5960586fff9",
+        "sha256_in_prefix": "d7272e7a5b16e7c2761fa1eb9cd419cb59d427b3eed325c7d618e5960586fff9",
+        "size_in_bytes": 6403
+      },
+      {
+        "_path": "site-packages/conda_repo_cli-1.0.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/conda_repo_cli-1.0.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/conda_repo_cli-1.0.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3dec67a56a6787a23db7cc482f44fd0db013bc7a465102e925464850b8911465",
+        "sha256_in_prefix": "3dec67a56a6787a23db7cc482f44fd0db013bc7a465102e925464850b8911465",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/conda_repo_cli-1.0.4.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "06dc13946da3079308744026f0745a1e7f495270b549697f5877875c7ac01ae2",
+        "sha256_in_prefix": "06dc13946da3079308744026f0745a1e7f495270b549697f5877875c7ac01ae2",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "site-packages/conda_repo_cli-1.0.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "68a80976c7f9b101dc5e32bad4d58dda8392e124985646f3912456373f885bab",
+        "sha256_in_prefix": "68a80976c7f9b101dc5e32bad4d58dda8392e124985646f3912456373f885bab",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/repo_cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1aa67c028ac6fae7960dc8ba878e9c52fa31ad538ef3f9b08f12538e498f15d0",
+        "sha256_in_prefix": "1aa67c028ac6fae7960dc8ba878e9c52fa31ad538ef3f9b08f12538e498f15d0",
+        "size_in_bytes": 2495
+      },
+      {
+        "_path": "site-packages/repo_cli/_version.py",
+        "path_type": "hardlink",
+        "sha256": "d87287a46422cf1dadfe124a87a0f5fb536502f7d61d5072dda60c3c7f268cde",
+        "sha256_in_prefix": "d87287a46422cf1dadfe124a87a0f5fb536502f7d61d5072dda60c3c7f268cde",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/admin.py",
+        "path_type": "hardlink",
+        "sha256": "17d3006cdcc963528a11a0f6a8fc7836c43af87977f78d5335353696c5919852",
+        "sha256_in_prefix": "17d3006cdcc963528a11a0f6a8fc7836c43af87977f78d5335353696c5919852",
+        "size_in_bytes": 2943
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/auth.py",
+        "path_type": "hardlink",
+        "sha256": "6eb93cafa2e1d0eab9192ceeca5a140f77139a2bb3b20a3cd0d20762689caf51",
+        "sha256_in_prefix": "6eb93cafa2e1d0eab9192ceeca5a140f77139a2bb3b20a3cd0d20762689caf51",
+        "size_in_bytes": 6388
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/base.py",
+        "path_type": "hardlink",
+        "sha256": "19a04d52d4f8d543c624b1c58d63ae9e426116cd788fe1f94573c477ca20bc3e",
+        "sha256_in_prefix": "19a04d52d4f8d543c624b1c58d63ae9e426116cd788fe1f94573c477ca20bc3e",
+        "size_in_bytes": 12616
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/channel.py",
+        "path_type": "hardlink",
+        "sha256": "7e0f5ba4f1fcea1cf711dda88f1d281ca39552a97b5dd26eb663ba948f1fb784",
+        "sha256_in_prefix": "7e0f5ba4f1fcea1cf711dda88f1d281ca39552a97b5dd26eb663ba948f1fb784",
+        "size_in_bytes": 10287
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/config.py",
+        "path_type": "hardlink",
+        "sha256": "f7f30ec416383a3b963dde0f08aeab1f28390ae974381c33a1b8aa2f64d095c9",
+        "sha256_in_prefix": "f7f30ec416383a3b963dde0f08aeab1f28390ae974381c33a1b8aa2f64d095c9",
+        "size_in_bytes": 6940
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/copy.py",
+        "path_type": "hardlink",
+        "sha256": "a010d6f5b19de73ff3d11b8988c63a379e4564abaa393b2166e7a3b3d8e8ab7c",
+        "sha256_in_prefix": "a010d6f5b19de73ff3d11b8988c63a379e4564abaa393b2166e7a3b3d8e8ab7c",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/cves.py",
+        "path_type": "hardlink",
+        "sha256": "036c21af8deb8f1d46fd8d65397ca920882ad679dbb34db28eb51530ef6e7fcc",
+        "sha256_in_prefix": "036c21af8deb8f1d46fd8d65397ca920882ad679dbb34db28eb51530ef6e7fcc",
+        "size_in_bytes": 2748
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/login.py",
+        "path_type": "hardlink",
+        "sha256": "8255b913a38761e6de058e9562e7951d1b387575327ab3ba6b569602e0483bf6",
+        "sha256_in_prefix": "8255b913a38761e6de058e9562e7951d1b387575327ab3ba6b569602e0483bf6",
+        "size_in_bytes": 6039
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/logout.py",
+        "path_type": "hardlink",
+        "sha256": "a0cf038fde8bdb5cd46e7155888cdda13d9be2332aedb7a500c267c42f3677ec",
+        "sha256_in_prefix": "a0cf038fde8bdb5cd46e7155888cdda13d9be2332aedb7a500c267c42f3677ec",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/mirror.py",
+        "path_type": "hardlink",
+        "sha256": "b951e28dc948791d6395bd4fd80a4874c012469896ad215a4cdb6bd88268cee2",
+        "sha256_in_prefix": "b951e28dc948791d6395bd4fd80a4874c012469896ad215a4cdb6bd88268cee2",
+        "size_in_bytes": 13198
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/move.py",
+        "path_type": "hardlink",
+        "sha256": "b316d9522228c033a86c057dd1bc554f2973987e8a85012fc2600534874e6e13",
+        "sha256_in_prefix": "b316d9522228c033a86c057dd1bc554f2973987e8a85012fc2600534874e6e13",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/remove.py",
+        "path_type": "hardlink",
+        "sha256": "95e12aa95632cebbdd477aaf81e5ec36b2f8493bfa37776a4b8cbfdd3ca67cc7",
+        "sha256_in_prefix": "95e12aa95632cebbdd477aaf81e5ec36b2f8493bfa37776a4b8cbfdd3ca67cc7",
+        "size_in_bytes": 7273
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/search.py",
+        "path_type": "hardlink",
+        "sha256": "e7fcad629663cfa02c607ecb854b2008c5a7e867b60c24a706036bfbcaac0f2c",
+        "sha256_in_prefix": "e7fcad629663cfa02c607ecb854b2008c5a7e867b60c24a706036bfbcaac0f2c",
+        "size_in_bytes": 2084
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/upload.py",
+        "path_type": "hardlink",
+        "sha256": "68ffe666b87b438d73b76cc09b9cab710b535d3d9dc005c535afa9a960e5dba7",
+        "sha256_in_prefix": "68ffe666b87b438d73b76cc09b9cab710b535d3d9dc005c535afa9a960e5dba7",
+        "size_in_bytes": 6367
+      },
+      {
+        "_path": "site-packages/repo_cli/commands/whoami.py",
+        "path_type": "hardlink",
+        "sha256": "ec31b99e372fd4c86e422ced805d0a212db522a49888e46f776b6ba3904e1680",
+        "sha256_in_prefix": "ec31b99e372fd4c86e422ced805d0a212db522a49888e46f776b6ba3904e1680",
+        "size_in_bytes": 700
+      },
+      {
+        "_path": "site-packages/repo_cli/errors.py",
+        "path_type": "hardlink",
+        "sha256": "5afd8f92b13dcbff69e09f4da1ae072ae5b65add0bda63be79760bb568ec8062",
+        "sha256_in_prefix": "5afd8f92b13dcbff69e09f4da1ae072ae5b65add0bda63be79760bb568ec8062",
+        "size_in_bytes": 1662
+      },
+      {
+        "_path": "site-packages/repo_cli/main.py",
+        "path_type": "hardlink",
+        "sha256": "f7e68a29fb3977249776363925208f53af7bdb6ed71fe504fe653961f2c2e46a",
+        "sha256_in_prefix": "f7e68a29fb3977249776363925208f53af7bdb6ed71fe504fe653961f2c2e46a",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "site-packages/repo_cli/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/repo_cli/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "bae87030012d695448941a5fde544d5247330961960e7081a42ff2d1d83135a1",
+        "sha256_in_prefix": "bae87030012d695448941a5fde544d5247330961960e7081a42ff2d1d83135a1",
+        "size_in_bytes": 7932
+      },
+      {
+        "_path": "site-packages/repo_cli/tests/integration/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/repo_cli/tests/integration/test_auth.py",
+        "path_type": "hardlink",
+        "sha256": "3dab9ca447c2ee945855a75ac5678036e2c01bbd4882a5835be18ce3a83e207b",
+        "sha256_in_prefix": "3dab9ca447c2ee945855a75ac5678036e2c01bbd4882a5835be18ce3a83e207b",
+        "size_in_bytes": 2899
+      },
+      {
+        "_path": "site-packages/repo_cli/tests/integration/test_channels.py",
+        "path_type": "hardlink",
+        "sha256": "68af76ab79213e8eb122a5ce4c274d2313250cd7bafead222d40a63bd6f4c47e",
+        "sha256_in_prefix": "68af76ab79213e8eb122a5ce4c274d2313250cd7bafead222d40a63bd6f4c47e",
+        "size_in_bytes": 8180
+      },
+      {
+        "_path": "site-packages/repo_cli/tests/integration/test_packages.py",
+        "path_type": "hardlink",
+        "sha256": "1115c3d5789be2a19b8d66545f47a834a0b8b0b0bf6817507f159cbdd8c46160",
+        "sha256_in_prefix": "1115c3d5789be2a19b8d66545f47a834a0b8b0b0bf6817507f159cbdd8c46160",
+        "size_in_bytes": 14052
+      },
+      {
+        "_path": "site-packages/repo_cli/tests/integration/test_user_workflows.py",
+        "path_type": "hardlink",
+        "sha256": "9d72d99e32decd2f601316034d35fd3c556616c7a0da6f1eb445c0764ef56b67",
+        "sha256_in_prefix": "9d72d99e32decd2f601316034d35fd3c556616c7a0da6f1eb445c0764ef56b67",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/repo_cli/tests/integration/testcase.py",
+        "path_type": "hardlink",
+        "sha256": "1478c6174f381a3473cf6bcc019ab4ad864be09417b1997fa62d1ac454a680b5",
+        "sha256_in_prefix": "1478c6174f381a3473cf6bcc019ab4ad864be09417b1997fa62d1ac454a680b5",
+        "size_in_bytes": 3725
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ed51b966eeeac78f08c7d7dd796780bd7a4aef488667d3eaf830058c3f217427",
+        "sha256_in_prefix": "ed51b966eeeac78f08c7d7dd796780bd7a4aef488667d3eaf830058c3f217427",
+        "size_in_bytes": 3945
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/api.py",
+        "path_type": "hardlink",
+        "sha256": "d7fc08ed996c722788e35785ae72421e8ff2710f00ef7c0d369824b4bab4dc65",
+        "sha256_in_prefix": "d7fc08ed996c722788e35785ae72421e8ff2710f00ef7c0d369824b4bab4dc65",
+        "size_in_bytes": 28936
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/appdirs.py",
+        "path_type": "hardlink",
+        "sha256": "c01dd4516f0557e3a8b3d3c89d730d58358258a63333b89278d423e56c6a268f",
+        "sha256_in_prefix": "c01dd4516f0557e3a8b3d3c89d730d58358258a63333b89278d423e56c6a268f",
+        "size_in_bytes": 14373
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/artifacts.py",
+        "path_type": "hardlink",
+        "sha256": "2393c6790585c4b6a6167b6dee5e45b03f9646faec658a8aac0cc6167b007802",
+        "sha256_in_prefix": "2393c6790585c4b6a6167b6dee5e45b03f9646faec658a8aac0cc6167b007802",
+        "size_in_bytes": 4161
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/conda.py",
+        "path_type": "hardlink",
+        "sha256": "6bc6a5741b77274240ffbfd31503f7d6732ad2c4f5c36c8d996ce59f287ddbd5",
+        "sha256_in_prefix": "6bc6a5741b77274240ffbfd31503f7d6732ad2c4f5c36c8d996ce59f287ddbd5",
+        "size_in_bytes": 1875
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/config.py",
+        "path_type": "hardlink",
+        "sha256": "ecd934200663a7b89e4b966296dac78f28619cd1bcac6512026373ca0d6678a2",
+        "sha256_in_prefix": "ecd934200663a7b89e4b966296dac78f28619cd1bcac6512026373ca0d6678a2",
+        "size_in_bytes": 8184
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/detect.py",
+        "path_type": "hardlink",
+        "sha256": "c9cdcbdf2ecd0f979192e2b6074fd8f2176baee7f8b4d747092a4995bd3b47cb",
+        "sha256_in_prefix": "c9cdcbdf2ecd0f979192e2b6074fd8f2176baee7f8b4d747092a4995bd3b47cb",
+        "size_in_bytes": 5014
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/format.py",
+        "path_type": "hardlink",
+        "sha256": "a0d5f08d1c531deb50c1e8ffdd3b3110eec6a9cbb9dfd9a31cc6beb5e7739e8e",
+        "sha256_in_prefix": "a0d5f08d1c531deb50c1e8ffdd3b3110eec6a9cbb9dfd9a31cc6beb5e7739e8e",
+        "size_in_bytes": 17043
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/local_auth_server.py",
+        "path_type": "hardlink",
+        "sha256": "272fc910848821edc629856331543b21a89b4bc08b40cec2ee8d3da3c34c4b18",
+        "sha256_in_prefix": "272fc910848821edc629856331543b21a89b4bc08b40cec2ee8d3da3c34c4b18",
+        "size_in_bytes": 4959
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/validators.py",
+        "path_type": "hardlink",
+        "sha256": "7cc20fc756756e190a5ff54f91cffd0e48c5339cb85ff9a91ab04e99437f7517",
+        "sha256_in_prefix": "7cc20fc756756e190a5ff54f91cffd0e48c5339cb85ff9a91ab04e99437f7517",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "site-packages/repo_cli/utils/yaml.py",
+        "path_type": "hardlink",
+        "sha256": "a55701f82b481b40e192be6964cd277b09188bbfe244e1e689ec94fd38ebf635",
+        "sha256_in_prefix": "a55701f82b481b40e192be6964cd277b09188bbfe244e1e689ec94fd38ebf635",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/admin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/auth.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/channel.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/copy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/cves.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/login.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/logout.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/mirror.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/move.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/remove.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/search.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/upload.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/commands/__pycache__/whoami.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/__pycache__/errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/__pycache__/main.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/tests/__pycache__/conftest.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/test_auth.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/test_channels.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/test_packages.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/test_user_workflows.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/tests/integration/__pycache__/testcase.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/api.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/appdirs.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/artifacts.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/conda.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/detect.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/format.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/local_auth_server.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/validators.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/repo_cli/utils/__pycache__/yaml.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/conda-repo",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/noarch::conda-repo-cli==1.0.4=pyhd3eb1b0_0",
+  "sha256": "fcc97e969fc7fc76bd943fa3515672e0c7dcf815c2a5dfe8bb96677b85ca370c",
+  "size": 47910,
+  "subdir": "noarch",
+  "timestamp": 1620168474545,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/conda-repo-cli-1.0.4-pyhd3eb1b0_0.conda",
+  "version": "1.0.4"
+}
